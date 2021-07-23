@@ -51,8 +51,9 @@
             color:$b;
             line-height: 21px;
             text-decoration-line: underline;
-            &:visited{
-                color:$b;
+            transition: color 0.15s;
+            &:hover{
+                color:$g;
             }
         }
 

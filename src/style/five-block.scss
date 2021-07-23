@@ -1,0 +1,48 @@
+@import 'main';
+
+.Block-five{
+    height:100vh;
+    & .wrap-pictures{
+        max-width:100%;
+        height:100%;
+        display: flex;
+        & .ANIMPICTURE{
+            // padding:5px;
+            transition: transform 0.2s;
+            &:hover{
+                transform: scale(0.9);
+            }
+        }
+        & .picture-regular{
+            max-width:422px;
+            max-height:100%;
+            display: flex;
+            flex-wrap: wrap;
+
+            & .large-picture{
+                width:422px;
+                height:422px;
+
+            }
+            & .small-picture{
+                width:211px;
+                height:230px;
+
+            }
+        }
+        & .picture-large{
+            max-width:648px;
+            max-height:100%;
+        }
+        & .picture-small{
+            max-width:338px;
+            max-height:100%;
+        }
+
+
+        * .focused-picture{
+            width:100%;
+            height:100%;
+        }
+    }
+}
