@@ -9,6 +9,16 @@
     src: url('../other/Roboto/Roboto-Light.ttf');
 }
 @font-face {
+    font-family: Roboto-m;
+    font-weight: 500;
+    src: url('../other/Roboto/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: Roboto-bd;
+    font-weight: 700;
+    src: url('../other/Roboto/Roboto-Bold.ttf');
+}
+@font-face {
     font-family: Roboto-b;
     font-weight: 900;
     src: url('../other/Roboto/Roboto-Black.ttf');
@@ -23,8 +33,8 @@ ul,p,html,body,h1{
     padding:0;
 }
 body{
-    min-height:150vh;
-    background:$b;
+    min-height:1500vh;
+    // background:$b;
 
 }
 .nav-btn{
