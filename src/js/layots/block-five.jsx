@@ -7,24 +7,24 @@ const FiveBlock = () =>{
             <div className="wrap-pictures">
 
                 <div className="picture-regular">
-                    <img  className='ANIMPICTURE bottom-sf small-picture' src="../../assets/glass.jpg" alt="glass" />
-                    <img  className='ANIMPICTURE bottom-sl small-picture' src="../../assets/glass.jpg" alt="glass" />
-                    <img className='ANIMPICTURE top large-picture' src="../../assets/lamps-m.jpg" alt="lamps" />
+                    <img  className='ANIMPICTURE bottom-sf small-picture' src="../../assets/6.jpg" alt="glass" />
+                    <img  className='ANIMPICTURE bottom-sl small-picture' src="../../assets/8.jpg" alt="glass" />
+                    <img className='ANIMPICTURE top large-picture' src="../../assets/5.jpg" alt="lamps" />
                 </div>
 
                 <div className="picture-large">
-                    <img  className='ANIMPICTURE focused-picture' src="../../assets/kitchen.jpg" alt="kitchen" />
+                    <img  className='ANIMPICTURE focused-picture' src="../../assets/3.jpg" alt="kitchen" />
                 </div>
 
                 <div className="picture-regular">
-                    <img className='ANIMPICTURE bottom large-picture' src="../../assets/lamps-m.jpg" alt="lamps"/>
-                    <img className='ANIMPICTURE top-sf small-picture' src="../../assets/glass.jpg" alt="glass" />
-                    <img className='ANIMPICTURE top-sl small-picture' src="../../assets/glass.jpg" alt="glass" />
+                    <img className='ANIMPICTURE bottom large-picture' src="../../assets/2.jpg" alt="lamps"/>
+                    <img className='ANIMPICTURE top-sf small-picture' src="../../assets/4.jpg" alt="glass" />
+                    <img className='ANIMPICTURE top-sl small-picture' src="../../assets/0.jpg" alt="glass" />
 
                 </div>
 
                 <div className="picture-small">
-                    <img className='ANIMPICTURE focused-picture' src="../../assets/lamps.jpg" alt="lamps" />
+                    <img className='ANIMPICTURE focused-picture' src="../../assets/1.jpg" alt="lamps" />
                 </div>
 
             </div>

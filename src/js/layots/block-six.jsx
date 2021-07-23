@@ -60,11 +60,11 @@ const BlockSix = () =>{
                 <div className="wrap-rate-us">
                     <div className="feedback-container">
                         <div className="feedback-card ">
-                            <img src="../../assets/fb1.png" alt="feedback" />
+                            <img src="../../assets/hh2.png" alt="feedback" />
                         </div>
 
                         <div className="feedback-card ">
-                            <img src="../../assets/fb2.png" alt="feedback" />
+                            <img src="../../assets/hh1.png" alt="feedback" />
                         </div>
 
                         <div className="feedback-card ">

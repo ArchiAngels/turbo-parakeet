@@ -20,12 +20,12 @@ const SevenBlock = () =>{
 
                 <div>
                     <img src="../../assets/instagram.png" alt="3" />
-                    <p>Instagram</p>
+                    <p className='under'>Instagram</p>
                 </div>
 
                 <div >
                     <img src="../../assets/mobile1.png" alt="4" />
-                    <p className='under'>Google Play  App Store</p>
+                    <p className='under double'><span>Google Play</span> <span>App Store</span></p>
                 </div>
 
                 <div>
@@ -44,8 +44,12 @@ const SevenBlock = () =>{
                 </div>
                 <br/>
                 <div >
+                    
+                    <p></p>
+                </div>
+                <div >
                     <img src="../../assets/map1.png" alt="8" />
-                    <p className='under'>Google Карты  Яндекс.Карты</p>
+                    <p className='under double'><span>Google Карты</span> <span>Яндекс.Карты</span></p>
                 </div>
 
             </div>

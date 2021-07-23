@@ -1,0 +1,15 @@
+@import 'main';
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:25px;
+    & p{
+        font-family: Roboto-r;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    }
+}

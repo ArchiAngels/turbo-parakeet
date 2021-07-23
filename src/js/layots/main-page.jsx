@@ -8,6 +8,7 @@ import FourBlock from '../layots/block-four.jsx';
 import FiveBlock from '../layots/block-five.jsx';
 import SixBlock from '../layots/block-six.jsx';
 import SevenBlock from '../layots/Block-seven.jsx';
+import FooterBlock from '../components/footer.jsx';
 
 const mainPage = (props) =>{
     return <>
@@ -23,7 +24,8 @@ const mainPage = (props) =>{
         <SixBlock></SixBlock>
         {/* TODO fine animation feedback */}
         <SevenBlock></SevenBlock>
-        <div className="footer-text">© 2021 iLunch</div>
+        <FooterBlock></FooterBlock>
+        
     </>
 }
 
