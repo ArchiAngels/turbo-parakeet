@@ -7,6 +7,7 @@ import ThirdBlock from '../layots/block-three.jsx';
 import FourBlock from '../layots/block-four.jsx';
 import FiveBlock from '../layots/block-five.jsx';
 import SixBlock from '../layots/block-six.jsx';
+import SevenBlock from '../layots/Block-seven.jsx';
 
 const mainPage = (props) =>{
     return <>
@@ -18,7 +19,11 @@ const mainPage = (props) =>{
         {/* TODO ANIM PICTURE */}
         <FiveBlock></FiveBlock>
         {/* TODO ANIM PICTURE */}
+        {/* TODO fine animation feedback */}
         <SixBlock></SixBlock>
+        {/* TODO fine animation feedback */}
+        <SevenBlock></SevenBlock>
+        <div className="footer-text">© 2021 iLunch</div>
     </>
 }
 
