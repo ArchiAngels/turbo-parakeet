@@ -2,7 +2,7 @@
 
 .block-four{
     margin : 60px 0 0 0 ;
-    min-height:100vh;
+    max-height:100vh;
     color: $b;
     .text{
         font-family: Roboto-bd;
@@ -13,7 +13,7 @@
     }
     .wrap-cards{
         display: flex;
-        max-width:1170px;
+        max-width:1140px;
         justify-content: space-between;
         margin: 60px auto 0 auto;
     }
@@ -21,10 +21,10 @@
         max-width:290px;
     }
     .card-content{
-        & h3{
-            font-family: Roboto-r;
+        & p{
+            font-family: Roboto-m;
             font-style: normal;
-            font-weight: 400;
+            font-weight: 500;
             font-size: 24px;
             line-height: 28px;
             margin:10px 0;
@@ -43,7 +43,9 @@
             line-height: 21px;
             max-width:270px;
         }
-        & a{
+        & button{
+            background:transparent;
+            border: 0px;
             font-family: Roboto-r;
             font-style: normal;
             font-weight: normal;
@@ -53,6 +55,7 @@
             text-decoration-line: underline;
             transition: color 0.15s,transform 0.15s;
             &:hover{
+                cursor: pointer;
                 color:$g;
             }
             &:active{

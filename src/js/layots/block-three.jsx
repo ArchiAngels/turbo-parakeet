@@ -5,7 +5,7 @@ const threeBlock = () =>{
 
     useEffect(function(){
         let pic = document.getElementById('myParallax');
-        let posZero = -700;
+        let posZero = -800;
         let speed = 0.4;
 
         window.addEventListener('scroll',()=>{
@@ -13,7 +13,7 @@ const threeBlock = () =>{
         })
 
         let parallaxFunc = () =>{
-            let newX = posZero + (window.scrollY * speed);
+            let newX =  posZero + (window.scrollY * speed);
             
             pic.style.marginTop = newX+'px';
         }
