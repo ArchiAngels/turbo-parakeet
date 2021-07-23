@@ -9,10 +9,13 @@
         width:100%;
         height:100%;
         color:#fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         
         & .wrap-max-width{
             max-width:853px;
-            margin:404px auto;
         }
 
         & .b-f{

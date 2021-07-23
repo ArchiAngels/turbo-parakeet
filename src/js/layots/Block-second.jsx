@@ -6,7 +6,7 @@ const SecondBlock = () =>{
 
         <div className="wrap">
             <div className="logo">
-                <img src="/assets/big-logo.png" alt="logo i lunch" />
+                <img src="/assets/iLoRu2.png" alt="logo i lunch" />
             </div>
             <div className="text-content">
                 <div className="text-wrap">
