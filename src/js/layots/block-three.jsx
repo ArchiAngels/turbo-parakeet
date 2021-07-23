@@ -26,7 +26,7 @@ const threeBlock = () =>{
                     </div>
                 </div>
                 <div className="text">
-                    <div className='makeOrderBtn w-b menu-btn '>
+                    <div className='makeOrderBtn b-w menu-btn '>
                         <p>Меню</p>
                     </div>
                 </div>

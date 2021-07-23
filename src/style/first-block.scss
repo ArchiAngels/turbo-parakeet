@@ -23,6 +23,8 @@
         }
 
         & .text {
+
+        flex-direction: column;
             & h1{
                 font-family: Roboto-b;
                 font-style: normal;

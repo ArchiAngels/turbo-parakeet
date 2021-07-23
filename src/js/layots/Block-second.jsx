@@ -30,17 +30,17 @@ const SecondBlock = () =>{
                             <div className="wrap-abilities">
 
                                 <div className="item">
-                                    <img src="../../assets/bot.png" alt="robot bot" />
+                                    <img src="../../assets/robot-color.png" alt="robot bot" />
                                     <p>Инновации</p>
                                 </div>
 
                                 <div className="item">
-                                    <img src="../../assets/coins.png" alt="money coins" />
+                                    <img src="../../assets/coin-color.png" alt="money coins" />
                                     <p>Приятные цены</p>
                                 </div>
 
                                 <div className="item">
-                                    <img src="../../assets/green.png" alt="green food" />
+                                    <img src="../../assets/harvest-color.png" alt="green food" />
                                     <p>Качественные продукты</p>
                                 </div>
 

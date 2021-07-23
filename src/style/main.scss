@@ -30,7 +30,7 @@ $g:#59B948;
 $w:#fff;
 $anim-y:5px;
 
-ul,p,html,body,h1{
+ul,p,html,body,h1,h2,h3{
     margin:0;
     padding:0;
 }
@@ -127,6 +127,26 @@ body{
             background: rgba(38, 38, 38, 0.8);
             & p{
                 color:$w;
+            }
+        }
+    }
+    // from black to white
+    &.b-w{
+        background: rgba(38, 38, 38, 0.8);
+        box-sizing: border-box;
+        & p{
+            color:$w;
+            font-family: Roboto-m;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+        }
+        &:hover{
+            border: 3px solid $menu;
+            background: rgba(38, 38, 38, 0.0);
+            & p{
+                color:$b;
             }
         }
     }
