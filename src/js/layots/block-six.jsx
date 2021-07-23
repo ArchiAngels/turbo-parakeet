@@ -8,6 +8,9 @@ const BlockSix = () =>{
                 <div className="text">
                     <h2>Отзывы наших любимых клиентов</h2>
                 </div>
+                <div className="wrap-rate-us">
+                    
+                </div>
             </div>
         </div>
     </div>

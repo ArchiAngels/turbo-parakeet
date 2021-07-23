@@ -7,9 +7,9 @@ const FiveBlock = () =>{
             <div className="wrap-pictures">
 
                 <div className="picture-regular">
-                    <img  className='ANIMPICTURE small-picture' src="../../assets/glass.jpg" alt="glass" />
-                    <img  className='ANIMPICTURE small-picture' src="../../assets/glass.jpg" alt="glass" />
-                    <img className='ANIMPICTURE large-picture' src="../../assets/lamps-m.jpg" alt="lamps" />
+                    <img  className='ANIMPICTURE bottom-sf small-picture' src="../../assets/glass.jpg" alt="glass" />
+                    <img  className='ANIMPICTURE bottom-sl small-picture' src="../../assets/glass.jpg" alt="glass" />
+                    <img className='ANIMPICTURE top large-picture' src="../../assets/lamps-m.jpg" alt="lamps" />
                 </div>
 
                 <div className="picture-large">
@@ -17,9 +17,9 @@ const FiveBlock = () =>{
                 </div>
 
                 <div className="picture-regular">
-                    <img className='ANIMPICTURE large-picture' src="../../assets/lamps-m.jpg" alt="lamps"/>
-                    <img className='ANIMPICTURE small-picture' src="../../assets/glass.jpg" alt="glass" />
-                    <img className='ANIMPICTURE small-picture' src="../../assets/glass.jpg" alt="glass" />
+                    <img className='ANIMPICTURE bottom large-picture' src="../../assets/lamps-m.jpg" alt="lamps"/>
+                    <img className='ANIMPICTURE top-sf small-picture' src="../../assets/glass.jpg" alt="glass" />
+                    <img className='ANIMPICTURE top-sl small-picture' src="../../assets/glass.jpg" alt="glass" />
 
                 </div>
 

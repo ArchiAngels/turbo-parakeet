@@ -1,49 +1,72 @@
 @import 'main';
 
 .Block-five{
-    height:100vh;
+    margin:60px 0 0 0;
+    min-height:100vh;
     & .wrap-pictures{
+        overflow: hidden;
         max-width:100%;
         height:100%;
         display: flex;
         & .ANIMPICTURE{
             // padding:5px;
-            transition: transform 0.2s;
+            transition: transform 0.15s;
             max-height:100%;
             &:hover{
-                transform: scale(0.9);
+                transform: scale(0.975);
             }
         }
         & .picture-regular{
-            max-width:22%;
             max-height:100%;
+            max-width:447px;
             display: flex;
             flex-wrap: wrap;
 
-            & .large-picture{
-                width:100%;
-                height:64%;
+            & .top{
+                padding: 2.5px 5px 0px 5px;
+            }
+            & .bottom{
+                padding: 0px 5px 2.5px 5px;
+            }
 
+            & .top-sf{
+                padding: 2.5px 2.5px 0px 5px;
+            }
+            & .top-sl{
+                padding: 2.5px 5px 0px 2.5px;
+            }
+            
+            
+            & .bottom-sf{
+                padding: 0px 2.5px 2.5px 5px;
+            }
+            & .bottom-sl{
+                padding: 0px 5px 2.5px 2.5px;
+            }
+            
+
+            & .large-picture{
+                min-width:437px;
+                height:432px;
             }
             & .small-picture{
-                width:50%;
-                height:36%;
-
+                width:216px;
+                height:217px;
             }
         }
         & .picture-large{
-            width:36.75%;
-            max-height:100%;
+            width:658px;
+            height:654px;
         }
         & .picture-small{
-            width:19.25%;
-            max-height:100%;
+            width:348px;
+            height:654px;
         }
 
 
         * .focused-picture{
-            width:100%;
-            height:100%;
+            // width:100%;
+            // height:100%;
         }
     }
 }
