@@ -1,0 +1,11 @@
+@import 'main';
+.block-six{
+    & .text{
+        font-family: Roboto-bd;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        color:$b;
+    }
+}

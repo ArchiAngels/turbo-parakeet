@@ -6,6 +6,7 @@ import SecondBlock from '../layots/Block-second.jsx';
 import ThirdBlock from '../layots/block-three.jsx';
 import FourBlock from '../layots/block-four.jsx';
 import FiveBlock from '../layots/block-five.jsx';
+import SixBlock from '../layots/block-six.jsx';
 
 const mainPage = (props) =>{
     return <>
@@ -17,6 +18,7 @@ const mainPage = (props) =>{
         {/* TODO ANIM PICTURE */}
         <FiveBlock></FiveBlock>
         {/* TODO ANIM PICTURE */}
+        <SixBlock></SixBlock>
     </>
 }
 

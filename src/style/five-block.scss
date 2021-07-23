@@ -9,33 +9,34 @@
         & .ANIMPICTURE{
             // padding:5px;
             transition: transform 0.2s;
+            max-height:100%;
             &:hover{
                 transform: scale(0.9);
             }
         }
         & .picture-regular{
-            max-width:422px;
+            max-width:22%;
             max-height:100%;
             display: flex;
             flex-wrap: wrap;
 
             & .large-picture{
-                width:422px;
-                height:422px;
+                width:100%;
+                height:64%;
 
             }
             & .small-picture{
-                width:211px;
-                height:230px;
+                width:50%;
+                height:36%;
 
             }
         }
         & .picture-large{
-            max-width:648px;
+            width:36.75%;
             max-height:100%;
         }
         & .picture-small{
-            max-width:338px;
+            width:19.25%;
             max-height:100%;
         }
 
